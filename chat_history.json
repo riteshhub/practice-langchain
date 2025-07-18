@@ -1,0 +1,56 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "How is the weather there?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "I do not have access to real-time information, including weather conditions. To find out the weather, please tell me your location, and I can recommend a weather service or app, or you can simply search \"weather in [your location]\" on Google.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "Pune is my location",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Okay! I recommend checking a reliable weather app or website for the current weather in Pune. Here are a few popular options:\n\n*   **Google Weather:** Just search \"weather in Pune\" on Google.\n*   **AccuWeather:** They have a website and a mobile app.\n*   **The Weather Channel:** Also has a website and app.\n*   **India Meteorological Department (IMD):** This is the official source for weather information in India.\n\nThese sources should give you the most up-to-date information on temperature, humidity, wind, and any precipitation in Pune.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]

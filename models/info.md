@@ -16,3 +16,5 @@ Embedding models create a vector representation of a piece of text.
 https://python.langchain.com/api_reference/core/language_models.html
 https://python.langchain.com/docs/integrations/chat/
 https://python.langchain.com/docs/integrations/text_embedding/
+
+**Note** `Use only those hugging face models which are inference by some provider` 

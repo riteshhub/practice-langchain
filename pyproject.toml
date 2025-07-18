@@ -9,5 +9,7 @@ dependencies = [
     "langchain-huggingface>=0.3.0",
     "langchain-ollama>=0.3.4",
     "langchain[google-genai]>=0.3.26",
+    "loguru>=0.7.3",
     "python-dotenv>=1.1.1",
+    "yfinance>=0.2.65",
 ]
