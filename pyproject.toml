@@ -5,14 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.0.15",
     "ddgs>=9.4.0",
+    "docx2txt>=0.9",
     "duckduckgo-search>=8.1.1",
     "grandalf>=0.8",
+    "langchain-chroma>=0.2.5",
     "langchain-community>=0.3.27",
     "langchain-huggingface>=0.3.0",
     "langchain-ollama>=0.3.4",
     "langchain[google-genai]>=0.3.26",
-    "loguru>=0.7.3",
+    "pypdf>=5.8.0",
     "python-dotenv>=1.1.1",
     "yfinance>=0.2.65",
 ]
