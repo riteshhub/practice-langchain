@@ -17,5 +17,6 @@ dependencies = [
     "langchain[google-genai]>=0.3.26",
     "pypdf>=5.8.0",
     "python-dotenv>=1.1.1",
+    "wikipedia>=1.4.0",
     "yfinance>=0.2.65",
 ]

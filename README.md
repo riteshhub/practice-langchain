@@ -5,14 +5,26 @@ A playground for experimenting with [LangChain](https://python.langchain.com/) a
 ## Features
 
 - **Model Integrations:**  
-  - Google Gemini ([`models/google_model.py`](models/google_model.py))
-  - HuggingFace ([`models/hugging_face_model.py`](models/hugging_face_model.py))
-  - Open Source (Ollama) ([`models/open_source_model.py`](models/open_source_model.py))
+  - Google Gemini ([`1.models/3.google_model.py`](1.models/3.google_model.py))
+  - HuggingFace ([`1.models/2.hugging_face_model.py`](1.models/2.hugging_face_model.py))
+  - Open Source (Ollama) ([`1.models/1.open_source_model.py`](1.models/1.open_source_model.py))
 
 - **Output Parsing:**  
-  - String output ([`parsers/string_parser.py`](parsers/string_parser.py))
-  - Pydantic output ([`parsers/pydantic_parser.py`](parsers/pydantic_parser.py))
-  - Structured output ([`parsers/structured_output.py`](parsers/structured_output.py))
+  - String output ([`2.parsers/2.string_parser.py`](2.parsers/2.string_parser.py))
+  - Pydantic output ([`2.parsers/3.pydantic_parser.py`](2.parsers/3.pydantic_parser.py))
+  - Structured output ([`2.parsers/1.structured_output.py`](2.parsers/1.structured_output.py))
+
+- **Prompt Templates:**  
+  - Examples in [`3.prompts/`](3.prompts/info.md)
+
+- **Runnables:**  
+  - Chains and workflows in [`5.runnables/`](5.runnables/info.md)
+
+- **RAG:**  
+  - Retrieval-Augmented Generation examples in [`4.rag/`](4.rag/info.md)
+
+- **Tools & Agents:**  
+  - Custom tools and agent examples in [`6.tools/`](6.tools/info.md) and [`7.agents/`](7.agents/info.md)
 
 - **Environment Management:**  
   Uses `.env` for API keys and configuration.
@@ -29,7 +41,7 @@ A playground for experimenting with [LangChain](https://python.langchain.com/) a
 1. Clone the repository:
     ```sh
     git clone https://github.com/riteshhub/practice-langchain.git
-    cd reusable-agents
+    cd practice-langchain
     ```
 2. Install UV from PyPI
     ```sh
@@ -40,16 +52,15 @@ A playground for experimenting with [LangChain](https://python.langchain.com/) a
     uv sync
     ```
 
-4. Set up environment variables in [.env](http://_vscodecontentref_/13) as needed.
-
+4. Set up environment variables in [.env](.env) as needed.
 
 ### Running Examples
 
-Each script in the `models/` and `parsers/` directories can be run directly:
+Each script in the numbered directories can be run directly, for example:
 
 ```sh
-python models/google_model.py
-python parsers/string_parser.py
+python 1.models/3.google_model.py
+python 2.parsers/2.string_parser.py
 ```
 
 ## Project Structure
@@ -58,19 +69,25 @@ python parsers/string_parser.py
 practice_langchain/
 │
 ├── main.py
-├── models/
-├── parsers/
-├── prompts/
-├── runnables/
+├── 1.models/
+├── 2.parsers/
+├── 3.prompts/
+├── 4.rag/
+├── 5.runnables/
+├── 6.tools/
+├── 7.agents/
 ├── .env
 ├── pyproject.toml
 └── README.md
 ```
 
-- **models/**: LLM integrations
-- **parsers/**: Output parsing examples
-- **prompts/**: Prompt templates (WIP)
-- **runnables/**: (Reserved for chains/workflows)
+- **1.models/**: LLM integrations
+- **2.parsers/**: Output parsing examples
+- **3.prompts/**: Prompt templates
+- **4.rag/**: Retrieval-Augmented Generation examples
+- **5.runnables/**: Chains/workflows
+- **6.tools/**: Custom and built-in tools
+- **7.agents/**: Agent systems and examples
 
 ## References
 
@@ -78,7 +95,3 @@ practice_langchain/
 - [LangChain Google GenAI](https://python.langchain.com/docs/integrations/chat/google_genai)
 - [LangChain HuggingFace](https://python.langchain.com/docs/integrations/chat/huggingface)
 - [LangChain Ollama](https://python.langchain.com/docs/integrations/chat/ollama)
-
----
-
-> For more details, see the info files in [`models/info.md`](models/info.md)
