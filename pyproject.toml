@@ -15,6 +15,7 @@ dependencies = [
     "langchain-huggingface>=0.3.0",
     "langchain-ollama>=0.3.4",
     "langchain[google-genai]>=0.3.26",
+    "opik>=1.8.9",
     "pillow>=11.3.0",
     "pypdf>=5.8.0",
     "python-dotenv>=1.1.1",
