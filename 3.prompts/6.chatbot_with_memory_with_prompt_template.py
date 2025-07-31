@@ -41,10 +41,7 @@ while True:
     query = input("You: ")
     if query == "exit()":
         break
-    # final_messages = prompt.format_messages(chat_history=memory, query=query)
-    # print(f"Number of messages sent to LLM: {len(final_messages)}")
-    # for msg in final_messages:
-    #     print(f"{type(msg).__name__}: {msg.content}")
+    
     memory.append(HumanMessage(content=query))
     chain = prompt | llm | parser
     result = chain.invoke({"chat_history":memory, "query":query})
