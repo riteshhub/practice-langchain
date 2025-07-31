@@ -2,7 +2,7 @@
   {
     "type": "human",
     "data": {
-      "content": "How is the weather there?",
+      "content": "Hello",
       "additional_kwargs": {},
       "response_metadata": {},
       "type": "human",
@@ -14,7 +14,7 @@
   {
     "type": "ai",
     "data": {
-      "content": "I do not have access to real-time information, including weather conditions. To find out the weather, please tell me your location, and I can recommend a weather service or app, or you can simply search \"weather in [your location]\" on Google.",
+      "content": "Hi there! How can I help you today?",
       "additional_kwargs": {},
       "response_metadata": {},
       "type": "ai",
@@ -29,7 +29,7 @@
   {
     "type": "human",
     "data": {
-      "content": "Pune is my location",
+      "content": "tell me something about Spain",
       "additional_kwargs": {},
       "response_metadata": {},
       "type": "human",
@@ -41,7 +41,7 @@
   {
     "type": "ai",
     "data": {
-      "content": "Okay! I recommend checking a reliable weather app or website for the current weather in Pune. Here are a few popular options:\n\n*   **Google Weather:** Just search \"weather in Pune\" on Google.\n*   **AccuWeather:** They have a website and a mobile app.\n*   **The Weather Channel:** Also has a website and app.\n*   **India Meteorological Department (IMD):** This is the official source for weather information in India.\n\nThese sources should give you the most up-to-date information on temperature, humidity, wind, and any precipitation in Pune.",
+      "content": "Okay, here's something interesting about Spain:\n\n**Spain is the only country in Europe that shares a physical border with an African country.**\n\nThis is because Spain has two autonomous cities, Ceuta and Melilla, located on the northern coast of Africa, bordering Morocco. These cities are Spanish territories and are the only land borders between the European Union and Africa.",
       "additional_kwargs": {},
       "response_metadata": {},
       "type": "ai",
